@@ -2,7 +2,7 @@ TODO List:
 
 > Armors
 --------
-Tire1, Tier2, Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
+Tier1, Tier2, Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
 Variaties: Health+HP-Regen, Energy+Energy-Regen, Glow-Armor, Speed-Jump
 Production: Lightweight, Thermal-Generator, Nanites, Glow-Aura
 
