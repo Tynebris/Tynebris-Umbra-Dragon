@@ -1,0 +1,51 @@
+TODO List:
+
+> Armors
+--------
+Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
+Variaties: Health+HP-Regen, Energy+Energy-Regen, Glow-Armor, Speed-Jump
+Production: Lightweight, Thermal-Generator, Nanites, Glow-Aura
+
+> Swords(1H&2H)/Axes/Spear
+--------------------------
+Tier1, Tier2, Tier3, Tier4
+Variaties: Laser-Intensity, Lightweight
+
+> Shotgun/SMG(1H&2H)/Assault/Sniper/Pistol
+------------------------------------------
+Tier1, Tier2, Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
+Variaties: Laser focus, Heat-Venting, Secondary Capacitor
+
+> A high-tech Starter-Ship
+
+> Custom Quest Line
+-------------------
+Introduce to the upgrade-system,
+The Fuel-transmutator,
+
+> Electric Based Fuel Item/System
+
+
+Melee
+Lightweight: Increases attack speed.
+Laser intensity: Increases damage output.
+
+Range
+Heat-Venting: Fire rate increase.
+Laser Focus: Increases damage output.
+Flux Capacitor: Significant decrease in energy usage.
+
+Armor
+Starting with Tier5 no modules, but production.
+Modules:
+SJ > Speed and Jump boost.
+Health > Health Increase and Health Regen.
+Energy > Energy Increase and Energy Regen.
+GA > 50% more armor rating and glowing-effect.
+Production:
+Lightweight > Like SJ without armor upgrade.
+Nanites > Built in nanites for the Armor for health-regeneration.
+Thermal Generator > Increased energy-regeneration.
+Glowing > Glowing-effect.
+Production can be improved with more platings and with better energy-generation for increased armor rating.
+Production starts with Tier 5.

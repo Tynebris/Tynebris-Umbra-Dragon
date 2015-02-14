@@ -1,0 +1,10 @@
+{
+  "codexId" : "umbradragonorigin",
+  "title" : "Xenium's point of view",
+  "codexkind" : "codex",
+  "inventoryIcon" : "umbradragonorigin.png",
+  "itemName" : "umbradragonoriginCodex",
+  "rarity" : "common",
+  "description" : "The Dimensional Drive Prototype Failure.",
+  "shortdescription" : "Umbra-Dragons' arrival"
+}

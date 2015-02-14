@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "umbradragonT6.png",
+      "position" : [55, 34],
+      "fullbright" : true
+    },
+    {
+      "image" : "umbradragonT6lit.png",
+      "position" : [55, 34]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "umbradragonT6blocks.png"
+}

@@ -1,0 +1,9 @@
+fireTime: Firerate
+recoilTime: Is not for accuracy, I think it is just for visuals on the character.
+level: The tier level of the weapon.
+classMultiplier: Is by default 1. Increasing it increases the energy consumption. Decreasing it below 1 lowers the energy consumption.
+
+projectile
+speed: The higher the faster the projectile travel.
+life: No idea.
+power: The lower the lower the energy consumption is AND slightly lowers the damage it deals.

@@ -1,0 +1,7 @@
+{
+  "itemName" : "energymodule",
+  "rarity" : "rare",
+  "inventoryIcon" : "energymodule.png",
+  "description" : "This is the Energy module for the Tyko Power Armors. This increases the power-armor energy efficiency.",
+  "shortdescription" : "Energy Module"
+}

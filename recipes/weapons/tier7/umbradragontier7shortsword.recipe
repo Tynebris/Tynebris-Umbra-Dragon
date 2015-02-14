@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 12 }
+  ],
+  "output" : { "item" : "umbradragontier7shortsword", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

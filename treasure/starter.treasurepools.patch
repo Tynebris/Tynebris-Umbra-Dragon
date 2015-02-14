@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+	"path" : "/umbradragonStarterTreasure",
+	"value" : [
+	[0, {
+		"fill" : [
+		{"pool" : "starterTreasure"},
+		{"item" : [ "torch", 10]},
+		{"item" : [ "umbradragonstarter", 1]},
+		{"item" : [ "novatier0rifle", 1]}
+		]
+		}
+	]
+	]
+	}
+]

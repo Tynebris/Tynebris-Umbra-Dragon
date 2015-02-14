@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidlava", "count" : 1 },
+	{ "item" : "liquidpoison", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "liquidoil",
+    "count" : 2
+  },
+  "groups" : [ "liquidfuelmutatorenhancer", "all" ]
+}

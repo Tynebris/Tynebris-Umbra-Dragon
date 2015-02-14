@@ -1,0 +1,10 @@
+{
+  "codexId" : "umbradragonprologue",
+  "title" : "Mission: Explore, Diplomacy, Rebuild",
+  "codexkind" : "codex",
+  "inventoryIcon" : "umbradragonprologue.png",
+  "itemName" : "umbradragonprologueCodex",
+  "rarity" : "common",
+  "description" : "Explore. Diplomacy. Rebuild. Research.",
+  "shortdescription" : "The Split"
+}

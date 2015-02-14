@@ -1,0 +1,7 @@
+{
+  "itemName" : "glowarmormodule",
+  "rarity" : "rare",
+  "inventoryIcon" : "glowarmormodule.png",
+  "description" : "This is the Glow module for the Tyko Power Armors. This produces a bit light around the user and somehow improves the protection rate.",
+  "shortdescription" : "Glow-Protection Module"
+}

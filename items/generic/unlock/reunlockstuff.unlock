@@ -1,0 +1,14 @@
+{
+  "itemName" : "reunlockstuff",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "reunlockstuff.png",
+  "image" : "reunlockstuff.png",
+
+  "shortdescription" : "^orange;Re-unlock Stuff^white;",
+  "description" : "Partial Storage of the modern Umbra Dragon Technology.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "tierRecipesUnlock" : "tier1",
+  "unlockMessage" : "You have unlocked parts of the modern Umbra Dragon Technology."
+}

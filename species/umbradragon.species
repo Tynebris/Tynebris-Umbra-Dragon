@@ -1,0 +1,184 @@
+{
+  "kind" : "umbradragon",
+  "nameGen" : [ "/species/umbradragonnamegen.config:names", "/species/umbradragonnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.wav", "/sfx/humanoid/humanhurt_female1.wav" ],
+  "gruntNoises" : [ [ "/sfx/humanoid/humangrunt1.wav", "/sfx/humanoid/humangrunt2.wav" ], [ "/sfx/humanoid/humangrunt1.wav", "/sfx/humanoid/humangrunt2.wav" ] ],
+  "charGenTextLabels" : [ "SCALE COLOR", "HORNS", "SHIRT", "LEGGINGS", "BELLY COLOR", "FINS", "SHIRT COLOR", "LEGGINGS COLOR", "UMBRA DRAGON", "STANCE" ],
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "umbradragontier1hammer" },
+      { "item" : "umbradragontier1shortsword" },
+      { "item" : "umbradragontier1broadsword" },
+      { "item" : "umbradragontier1spear" },
+      { "item" : "umbradragontier1axe" },
+      { "item" : "umbradragontier1dagger" },
+      { "item" : "umbradragontier1head" },
+      { "item" : "umbradragontier1chest" },
+      { "item" : "umbradragontier1pants" },
+	  { "item" : "energymodule" },
+	  { "item" : "glowarmormodule" },
+	  { "item" : "healthmodule" },
+	  { "item" : "speedjumpmodule" },
+	  { "item" : "invisablevanitychestUD" },
+	  { "item" : "invisablevanityheadUD" },
+	  { "item" : "invisablevanitylegsUD" },
+	  { "item" : "crudecopperwires" },
+      { "item" : "bread" },
+	  { "item" : "flagumbradragon" },
+	  { "item" : "liquidoil" },
+	  { "item" : "liquidfuel" },
+	  { "item" : "liquidfuelmutatorenhancer" },
+	  { "item" : "treasurehoard" },
+	  
+      { "item" : "umbradragontier2hammer" },
+      { "item" : "umbradragontier2shortsword" },
+      { "item" : "umbradragontier2broadsword" },
+      { "item" : "umbradragontier2spear" },
+      { "item" : "umbradragontier2axe" },
+      { "item" : "umbradragontier2dagger" },
+      { "item" : "umbradragontier2head" },
+      { "item" : "umbradragontier2chest" },
+      { "item" : "umbradragontier2pants" },
+	  { "item" : "copperwires" },
+	  { "item" : "powergearwiringtable" },
+	  { "item" : "fueltransmutator" },
+	  
+      { "item" : "umbradragontier3head" },
+      { "item" : "umbradragontier3chest" },
+      { "item" : "umbradragontier3pants" },
+      { "item" : "umbradragontier3hammer" },
+      { "item" : "umbradragontier3shortsword" },
+      { "item" : "umbradragontier3broadsword" },
+      { "item" : "umbradragontier3spear" },
+      { "item" : "umbradragontier3axe" },
+      { "item" : "umbradragontier3dagger" },
+	  
+      { "item" : "umbradragontier4head" },
+      { "item" : "umbradragontier4chest" },
+      { "item" : "umbradragontier4pants" },
+      { "item" : "umbradragontier4hammer" },
+      { "item" : "umbradragontier4shortsword" },
+      { "item" : "umbradragontier4broadsword" },
+      { "item" : "umbradragontier4spear" },
+      { "item" : "umbradragontier4axe" },
+      { "item" : "umbradragontier4dagger" },
+	  
+      { "item" : "umbradragontier5head" },
+      { "item" : "umbradragontier5chest" },
+      { "item" : "umbradragontier5pants" },
+      { "item" : "umbradragontier5shortsword" },
+      { "item" : "umbradragontier5broadsword" },
+      { "item" : "umbradragontier5spear" },
+      { "item" : "umbradragontier5axe" },
+      { "item" : "umbradragontier5dagger" },
+	  
+      { "item" : "umbradragontier6head" },
+      { "item" : "umbradragontier6chest" },
+      { "item" : "umbradragontier6pants" },
+      { "item" : "umbradragontier6hammer" },
+      { "item" : "umbradragontier6shortsword" },
+      { "item" : "umbradragontier6broadsword" },
+      { "item" : "umbradragontier6spear" },
+      { "item" : "umbradragontier6axe" },
+      { "item" : "umbradragontier6dagger" },
+	  
+      { "item" : "umbradragontier7head" },
+      { "item" : "umbradragontier7chest" },
+      { "item" : "umbradragontier7pants" },
+      { "item" : "umbradragontier7hammer" },
+      { "item" : "umbradragontier7shortsword" },
+      { "item" : "umbradragontier7broadsword" },
+      { "item" : "umbradragontier7spear" },
+      { "item" : "umbradragontier7axe" },
+      { "item" : "umbradragontier7dagger" },
+	  
+      { "item" : "umbradragontier8head" },
+      { "item" : "umbradragontier8chest" },
+      { "item" : "umbradragontier8pants" },
+      { "item" : "umbradragontier8hammer" },
+      { "item" : "umbradragontier8shortsword" },
+      { "item" : "umbradragontier8broadsword" },
+      { "item" : "umbradragontier8spear" },
+      { "item" : "umbradragontier8axe" },
+      { "item" : "umbradragontier8dagger" },
+	  
+      { "item" : "umbradragontier9head" },
+      { "item" : "umbradragontier9chest" },
+      { "item" : "umbradragontier9pants" },
+      { "item" : "umbradragontier9hammer" },
+      { "item" : "umbradragontier9shortsword" },
+      { "item" : "umbradragontier9broadsword" },
+      { "item" : "umbradragontier9spear" },
+      { "item" : "umbradragontier9axe" },
+      { "item" : "umbradragontier9dagger" },
+	  
+      { "item" : "umbradragontier10head" },
+      { "item" : "umbradragontier10chest" },
+      { "item" : "umbradragontier10pants" },
+      { "item" : "umbradragontier10hammer" },
+      { "item" : "umbradragontier10shortsword" },
+      { "item" : "umbradragontier10broadsword" },
+      { "item" : "umbradragontier10spear" },
+      { "item" : "umbradragontier10axe" },
+      { "item" : "umbradragontier10dagger" }
+    ],
+	"portable3dprinter" : [
+	  { "item" : "greenstim" },
+      { "item" : "redstim" },
+      { "item" : "bluestim" }
+	]
+  },
+  "headOptionAsFacialhair" : true,
+  "altOptionAsUndyColor" : true,
+  "headOptionAsBodyColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/umbradragonmale.png",
+      "hair" : [ "1", "2", "3", "4", "5" ], //  "hair2cut" "hair9cut"
+      "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD" ],
+      "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD" ],
+      "facialHairGroup" : "fins",
+      "facialHair" : [ "1", "2", "3", "4", "5" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/umbradragonfemale.png",
+      "hair" : [ "1", "2", "3", "4", "5" ], //  "hair2cut" "hair9cut"
+      "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD" ],
+      "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD" ],
+      "facialHairGroup" : "fins",
+      "facialHair" : [ "1", "2", "3", "4", "5" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffca8a" : "997E6A", "e0975c" : "915226", "a85636" : "6B340D", "6f2919" : "3A1A02" }, // Brown
+    { "ffca8a" : "998424", "e0975c" : "987115", "a85636" : "814E03", "6f2919" : "633603" }, // Dark Gold
+    { "ffca8a" : "5C7E4C", "e0975c" : "499126", "a85636" : "2C6B0D", "6f2919" : "153A02" }, // Dark Green
+    { "ffca8a" : "0066FF", "e0975c" : "0052CC", "a85636" : "00398F", "6f2919" : "002E72" }, // Dark Blue
+    { "ffca8a" : "736D92", "e0975c" : "7964E0", "a85636" : "442DB7", "6f2919" : "1E0E70" }, // Purple
+    { "ffca8a" : "626262", "e0975c" : "474747", "a85636" : "373737", "6f2919" : "282828" }, // Dark Gray
+    { "ffca8a" : "343434", "e0975c" : "262626", "a85636" : "1A1A1A", "6f2919" : "0C0C0C" }, // Black
+    { "ffca8a" : "564E87", "e0975c" : "261C66", "a85636" : "0D053A", "6f2919" : "02000C" }, // midnight
+    { "ffca8a" : "7A1F1F", "e0975c" : "840C0C", "a85636" : "640000", "6f2919" : "3D0000" } // crimson
+  ],
+  "undyColor" : [
+    { "dc1f00" : "4d76ad", "be1b00" : "395187", "951500" : "20325b" }, // Okay Blue
+    { "dc1f00" : "406E27", "be1b00" : "29561C", "951500" : "193B0F" }, // Green
+    { "dc1f00" : "3A3A3A", "be1b00" : "262626", "951500" : "2E2E2E" }, // Dark Grey
+	{ "dc1f00" : "535353", "be1b00" : "363636", "951500" : "414141" }, // Grey
+	{ "dc1f00" : "7B2B80", "be1b00" : "6A1670", "951500" : "55085A" }, // Purple
+	{ "dc1f00" : "731010", "be1b00" : "580404", "951500" : "240101" }, // Crimson
+	{ "dc1f00" : "948116", "be1b00" : "786706", "951500" : "5C4E01" } // Dark Yellow
+  ],
+  "hairColor" : [
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" }
+  ]
+}

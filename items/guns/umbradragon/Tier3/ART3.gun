@@ -1,0 +1,30 @@
+{
+  "itemName" : "ART3",
+  "inventoryIcon" : "ART3.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "No one really knows how this gun works, or why its so remarkably pink.",
+  "shortdescription" : "Almighty Magnetar",
+  "image" : "ART3.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [26, 1.5],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.2,
+  "classMultiplier" : 0.5,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "umbrapurpleplasmabullet",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 0.8
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/UARShot.wav" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1500 },
+    { "item" : "steelbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "portable3dprinter",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "objects", "all", "tools" ]
+}

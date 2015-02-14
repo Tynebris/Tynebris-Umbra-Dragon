@@ -1,0 +1,14 @@
+[
+{ "op" : "add", "path" : "/speciesShips/umbradragon", "value" : [
+	"/ships/umbradragon/umbradragont0.structure", 
+	"/ships/umbradragon/umbradragont1.structure", 
+	"/ships/umbradragon/umbradragont2.structure", 
+	"/ships/umbradragon/umbradragont3.structure", 
+	"/ships/umbradragon/umbradragont4.structure", 
+	"/ships/umbradragon/umbradragont5.structure", 
+	"/ships/umbradragon/umbradragont6.structure", 
+	"/ships/umbradragon/umbradragont7.structure", 
+	"/ships/umbradragon/umbradragont8.structure"
+	]
+}
+]

@@ -1,0 +1,28 @@
+Starbound Hyper-Modern Dragon Anthro Mod (Genetically Modified Umbra-Dragons, while there are still quadrupedal ones, there are more bipedal ones.
+------------------------------------------------------------------------
+Currently it is just a modified 'Kazdra Mod' version.
+This is not anymore fully true. The only signs left from Kazdra mod are the following:
+> The dragon-appearence
+> The Tier2-Power armor (Currently also the 'code')
+> The respawn animation.
+All other graphical stuff are either from vanilla Starbound or self-modified vanilla Starbound.
+File-specific stuff are modified vanilla stuff or self-made.
+
+
+One major difference will be the racial armors being Power Armor. They will come in 10 tiers, just like the other racial armors, but they can be upgraded by the Power Gear Wiring Table (PGWT). Each tiered power armor can be upgraded once, more to that after the Upgrade/Variants. The whole power-armor technology from the Umbra-Dragons (Genetically modified by themselves to fit better into human-like designs) was invented by the company Tyco/Tyko.
+(Copper)
+(Gold)
+Ore Tiers
+1 > Iron
+2 > Steel
+3 > Titanium
+4 > Durasteel
+5 > Aegisalt
+6 > Ferozium
+7 > Cerulium
+8 > Violium
+9 > Rubium
+0 > Impervium
+
+
+Copper, Silver, Gold and Platinum can be used for making the upgrade-variety system. Copper and Gold could potentially serve as suit-wiring. All four can be integrated into the upgrade-components, using custom mini components for other things as well. Each component should somehow be craftable, maybe through pixel-exchange: A machine/device that converts pixels into some energy-currency, which in return can create materials for the upgrade component. This would mean another crafting table sort of thing, a modified microwave-looking thing?

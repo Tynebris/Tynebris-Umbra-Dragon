@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 28 },
+    { "item" : "crudecopperwires", "count" : 9 },
+	{ "item" : "coalore", "count" : 1 },
+    { "item" : "money", "count" : 350 }
+  ],
+  "output" : { "item" : "umbradragontier1chest", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

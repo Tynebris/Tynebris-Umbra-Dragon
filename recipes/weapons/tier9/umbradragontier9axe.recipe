@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 16 }
+  ],
+  "output" : { "item" : "umbradragontier9axe", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

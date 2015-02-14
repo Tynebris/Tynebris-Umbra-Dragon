@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "moondust", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "liquidfuel",
+    "count" : 1
+  },
+  "groups" : [ "liquidfuelmutatorenhancer", "all" ]
+}

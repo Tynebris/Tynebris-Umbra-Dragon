@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 2 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crudecopperwires",
+    "count" : 3
+  },
+  "groups" : [ "anvil", "objects", "all", "tools" ]
+}

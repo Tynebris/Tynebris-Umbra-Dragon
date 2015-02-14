@@ -1,0 +1,7 @@
+{
+  "itemName" : "speedjumpmodule",
+  "rarity" : "rare",
+  "inventoryIcon" : "speedjumpmodule.png",
+  "description" : "This is the Speed-Jump module for the Tyko Power Armors. The more energy it receives the stronger the effect is.",
+  "shortdescription" : "Speed Jump Module"
+}

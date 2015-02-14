@@ -1,0 +1,33 @@
+{
+  "objectName" : "flagumbradragon",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The Flag of the modern Umbra Dragons. The symbol of science.",
+  "shortdescription" : "Umbra Dragon Flag",
+  "race" : "umbradragon",
+
+  "apexDescription" : "A flag with the emblem of modern Umbra Dragons.",
+  "avianDescription" : "These dragons seldom do business with Avians, but their technology is also advanced.",
+  "floranDescription" : "Floran likessss flagsss",
+  "glitchDescription" : "Observant. This flag denotes the presence of an advanced species.",
+  "humanDescription" : "Dragons are wierd.",
+  "hylotlDescription" : "The Umbra Dragons and Hylotl races share a mutually beneficial neutrality.",
+
+
+  "inventoryIcon" : "flagumbradragonicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flagumbradragon.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

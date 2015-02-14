@@ -1,0 +1,38 @@
+{
+  "objectName" : "powergearwiringtable",
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/robotcraftingtable.config",
+    "filter" : [ "powergearwiringtable" ]
+  },
+  "printable" : false,
+  "description" : "For crafting and upgrading your power gear needs!",
+  "shortdescription" : "Power Gear Wiring Table",
+  "race" : "umbradragon",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy energy based wiring table.",
+  "avianDescription" : "A mechanical crafting and wiring table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This table is familiar.",
+  "humanDescription" : "A robot wiring table! The wiring revolution begins!",
+  "hylotlDescription" : "How strange. A robotic crafting and wiring table.",
+  "umbradragonDescription" : "Now our gear production can begin!",
+
+  "inventoryIcon" : "powergearwiringtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "powergearwiringtable.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 17,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

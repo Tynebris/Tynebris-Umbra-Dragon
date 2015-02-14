@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "treasurehoard",
+    "count" : 4
+  },
+  "groups" : [ "metalworkstation", "objects" ]
+}

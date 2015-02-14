@@ -1,0 +1,72 @@
+{
+  "objectName" : "fueltransmutator",
+  "rarity" : "Uncommon",
+  "description" : "To combine the same fuel to make the next tier.",
+  "shortdescription" : "Fuel-Transmutator",
+  "subtitle" : "Fuel into better fuel",
+  "race" : "umbradragon",
+  "category" : "crafting",
+  "price" : 200,
+  "objectType" : "container",
+  "printable" : false,
+
+  "apexDescription" : "I can place fuel in here to improve it.",
+  "avianDescription" : "Improving fuel. Helpful.",
+  "floranDescription" : "Machine doess magic, make better fuel.",
+  "glitchDescription" : "Statement. Fuel can be improved here.",
+  "humanDescription" : "It transmutates fuel! Better fuel!",
+  "hylotlDescription" : "An extremely capitalist device for more expensive fuel.",
+
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [0, 0, 255, 255],
+      "light" : [0, 0, 153],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "fueltransmutatoricon.png",
+  "orientations" : [
+    {
+      "image" : "fueltransmutator.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [],
+
+  "recipeGroup" : "fueltransmutator",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/refinery.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

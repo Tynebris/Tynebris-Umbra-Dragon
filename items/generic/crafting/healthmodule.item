@@ -1,0 +1,7 @@
+{
+  "itemName" : "healthmodule",
+  "rarity" : "rare",
+  "inventoryIcon" : "healthmodule.png",
+  "description" : "This is the health module for the Tyko Power Armors. The more energy it receives the stronger the effect is.",
+  "shortdescription" : "Health Module"
+}

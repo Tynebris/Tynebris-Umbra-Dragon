@@ -1,0 +1,12 @@
+      {
+      "name" : "Tynebris' Bipedal Umbra Dragons",
+      "version" : "Beta v. Upbeat Giraffe",
+      "path" : ".",
+      "dependencies" : [ ],
+      "metadata": {
+        "author" : "Tynebris",
+        "description" : "Adds the Anthro-Umbra-Dragons from Tynebris.",
+		"version" : "v0.1"
+      }
+    }
+

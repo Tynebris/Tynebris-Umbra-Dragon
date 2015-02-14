@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 4 },
+    { "item" : "uraniumore", "count" : 3 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "energymodule",
+    "count" : 1
+  },
+  "groups" : [ "powergearwiringtable", "objects", "all", "tools" ]
+}
