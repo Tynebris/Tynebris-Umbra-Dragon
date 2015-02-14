@@ -2,7 +2,7 @@ TODO List:
 
 > Armors
 --------
-Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
+Tire1, Tier2, Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
 Variaties: Health+HP-Regen, Energy+Energy-Regen, Glow-Armor, Speed-Jump
 Production: Lightweight, Thermal-Generator, Nanites, Glow-Aura
 
@@ -17,11 +17,6 @@ Tier1, Tier2, Tier3, Tier4, Tier5, Tier6, Tier7, Tier8, Tier9, Tier10
 Variaties: Laser focus, Heat-Venting, Secondary Capacitor
 
 > A high-tech Starter-Ship
-
-> Custom Quest Line
--------------------
-Introduce to the upgrade-system,
-The Fuel-transmutator,
 
 > Electric Based Fuel Item/System
 

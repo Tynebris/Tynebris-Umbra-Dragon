@@ -2,7 +2,7 @@
 This is a Starbound race mod which adds a variation of my Umbra Dragons to the game.
 
 ### Current Features:
-* A dragon looking humanoid, self made (with inspiration from the Kazdra Race Mod - by Hiuki - and by the reptans - by nubnubbud).
+* A humanoid dragon.
 * Weapons from tier 1 to tier 10 (Current graphics are from vanilla).
 * Armors from tier 1 to tier 10 (Current graphics are from vanilla).
 * Two transmutation objects (for the old fuel and new fuel).
