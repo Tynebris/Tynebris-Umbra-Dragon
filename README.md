@@ -1,5 +1,5 @@
 # Tynebris-Umbra-Dragon
-This is a race Starbound mod which adds a variation of my Umbra Dragons to the game.
+This is a Starbound race mod which adds a variation of my Umbra Dragons to the game.
 
 ### Current Features:
 * A dragon looking humanoid, self made (with inspiration from the Kazdra Race Mod - by Hiuki - and by the reptans - by nubnubbud).
