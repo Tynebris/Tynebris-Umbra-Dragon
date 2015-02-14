@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "The chest, wing and tail pieces of the Umbra Dragon jewelry vanity.",
+  "description" : "The chest piece of the Umbra Dragon jewelry vanity.",
   "shortdescription" : "Jewelry Enriched Gold Platings",
   "inspectionKind" : "armor",
 
@@ -23,17 +23,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 15
-    },
-
-    {
-      "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 0
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 5
     }
   ],
 

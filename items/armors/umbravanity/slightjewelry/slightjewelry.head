@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "To show off your noble roots.",
-  "shortdescription" : "Jewelry Tiara",
+  "description" : "To show off your noble roots, with a circlet.",
+  "shortdescription" : "Jewelry Circlet",
   "inspectionKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -15,17 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 9
-    },
-
-    {
-      "stat" : "maxEnergy",
-      "amount" : 5
-    },
-
-    {
-      "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 0
     }
   ],
 
