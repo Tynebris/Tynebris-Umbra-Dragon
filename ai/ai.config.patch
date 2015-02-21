@@ -7,7 +7,7 @@
       "openSpeech" : {
         "0" : [ {
           "animation" : "unique",
-          "text" : "ERROR: ERROR: Info:'S.A.I.L.::run.innerLoop', 'Cnt#: ', 1198, 'Sum:ms:', ERROR: 'Min', 15, 'Max', 7199, 'Horse', 9899, 'Avg', 23, 'Last:::', '800b5', 'Var:avg,us: ERROR: ERROR: REBOOT REQUIRED!!!'",
+		  "text" : "ERROR: REBOOT REQUIRED! HULL INTEGRITY LOW! FTL DRIVE OFFLINE! REBOOT REQUIRED! HULL HEAVILY DAMAGED! REBOOT FINALLY!",
           "speedModifier" : 0.5
         } ],
         "1" : [ {

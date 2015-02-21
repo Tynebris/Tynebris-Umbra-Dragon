@@ -3,7 +3,7 @@
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/robotcraftingtable.config",
+    "config" : "/interface/windowconfig/powergearwiringtable.config",
     "filter" : [ "powergearwiringtable" ]
   },
   "printable" : false,
