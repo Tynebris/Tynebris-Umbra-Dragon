@@ -1,0 +1,20 @@
+  {
+  "id" : "umbraflighttech.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock The Ability to fly!",
+  "text" : "Bring one, ^orange;Umbra's Flight ^white; to ^green;to fly!^white;",
+  "completionText" : "You can now fly!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "grantumbraflight", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "umbraflight"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

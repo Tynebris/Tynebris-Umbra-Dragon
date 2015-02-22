@@ -1,0 +1,8 @@
+{
+  "itemName" : "grantumbraflight",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/umbradragon/umbraflight.png",
+  "description" : "Starts a quest to grant you the ability to fly.",
+  "shortdescription" : "Umbra's Flight",
+  "pickupQuestTemplates" : ["umbraflighttech.gearup"]
+}

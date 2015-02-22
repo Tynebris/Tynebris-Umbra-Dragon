@@ -1,11 +1,6 @@
 Starbound Hyper-Modern Dragon Anthro Mod (Genetically Modified Umbra-Dragons, while there are still quadrupedal ones, there are more bipedal ones.
 ------------------------------------------------------------------------
-Currently it is just a modified 'Kazdra Mod' version.
-This is not anymore fully true. The only signs left from Kazdra mod are the following:
-> The dragon-appearence
-> The Tier2-Power armor (Currently also the 'code')
-> The respawn animation.
-All other graphical stuff are either from vanilla Starbound or self-modified vanilla Starbound.
+All graphical stuff are either from vanilla Starbound or self-modified vanilla Starbound.
 File-specific stuff are modified vanilla stuff or self-made.
 
 

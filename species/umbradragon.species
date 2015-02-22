@@ -143,7 +143,7 @@
       "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD", "jewelrylineschest" ],
       "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD", "jewelrylinespants" ],
       "facialHairGroup" : "fins",
-      "facialHair" : [ "1", "2", "3", "4", "5" ],
+      "facialHair" : [ "1", "2", "3" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     },
@@ -155,7 +155,7 @@
       "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD", "jewelrylineschest" ],
       "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD", "jewelrylinespants" ],
       "facialHairGroup" : "fins",
-      "facialHair" : [ "1", "2", "3", "4", "5" ],
+      "facialHair" : [ "1", "2", "3" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     }
