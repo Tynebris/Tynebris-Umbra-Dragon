@@ -143,7 +143,7 @@
       "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD", "jewelrylineschest" ],
       "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD", "jewelrylinespants" ],
       "facialHairGroup" : "fins",
-      "facialHair" : [ "1", "2", "3" ],
+      "facialHair" : [ "1", "2", "3", "4", "5" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     },
@@ -155,21 +155,21 @@
       "shirt" : [ "coolchest", "avianworkershirt", "apexcommanderjacket", "invisablevanitychestUD", "jewelrylineschest" ],
       "pants" : [ "coollegs", "avianworkerpants", "apexcommanderpants", "invisablevanitylegsUD", "jewelrylinespants" ],
       "facialHairGroup" : "fins",
-      "facialHair" : [ "1", "2", "3" ],
+      "facialHair" : [ "1", "2", "3", "4", "5" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     }
   ],
   "bodyColor" : [
-    { "ffca8a" : "997E6A", "e0975c" : "915226", "a85636" : "6B340D", "6f2919" : "3A1A02" }, // Brown
-    { "ffca8a" : "998424", "e0975c" : "987115", "a85636" : "814E03", "6f2919" : "633603" }, // Dark Gold
-    { "ffca8a" : "5C7E4C", "e0975c" : "499126", "a85636" : "2C6B0D", "6f2919" : "153A02" }, // Dark Green
+    { "ffca8a" : "997E4A", "e0975c" : "915226", "a85636" : "6B340D", "6f2919" : "3A1A02" }, // Brown
+    { "ffca8a" : "a99434", "e0975c" : "987115", "a85636" : "814E03", "6f2919" : "633603" }, // Dark Gold
+    { "ffca8a" : "5CD04C", "e0975c" : "499126", "a85636" : "2C6B0D", "6f2919" : "153A02" }, // Dark Green
     { "ffca8a" : "0066FF", "e0975c" : "0052CC", "a85636" : "00398F", "6f2919" : "002E72" }, // Dark Blue
-    { "ffca8a" : "736D92", "e0975c" : "7964E0", "a85636" : "442DB7", "6f2919" : "1E0E70" }, // Purple
+    { "ffca8a" : "A567FF", "e0975c" : "8E48EE", "a85636" : "712DB7", "6f2919" : "1E0E70" }, // Purple
     { "ffca8a" : "626262", "e0975c" : "474747", "a85636" : "373737", "6f2919" : "282828" }, // Dark Gray
-    { "ffca8a" : "343434", "e0975c" : "262626", "a85636" : "1A1A1A", "6f2919" : "0C0C0C" }, // Black
+    { "ffca8a" : "343434", "e0975c" : "262626", "a85636" : "1A1A1A", "6f2919" :   "0C0C0C" }, // Black
     { "ffca8a" : "564E87", "e0975c" : "261C66", "a85636" : "0D053A", "6f2919" : "02000C" }, // midnight
-    { "ffca8a" : "7A1F1F", "e0975c" : "840C0C", "a85636" : "640000", "6f2919" : "3D0000" } // crimson
+    { "ffca8a" : "CA1F1F", "e0975c" : "840C0C", "a85636" : "640000", "6f2919" : "3D0000" } // crimson
   ],
   "undyColor" : [
     { "dc1f00" : "4d76ad", "be1b00" : "395187", "951500" : "20325b" }, // Okay Blue
