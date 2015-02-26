@@ -7,7 +7,8 @@
 		{"pool" : "starterTreasure"},
 		{"item" : [ "torch", 10]},
 		{"item" : [ "umbradragonstarter", 1]},
-		{"item" : [ "novatier0rifle", 1]}
+		{"item" : [ "novatier0rifle", 1]},
+		{"item" : [ "grantumbraflight", 1]}
 		]
 		}
 	]

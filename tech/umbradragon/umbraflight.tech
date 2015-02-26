@@ -6,8 +6,7 @@
   "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
   "animator" : "umbraflight.animation",
 
-  "boostControlForce" : 300,
-  "boostSpeed" : 35,
-  "energyUsagePerSecond" : 30,
-  "energyUsagePerSecondHover" : 10
+  "boostControlForce" : 275,
+  "boostSpeed" : 25,
+  "energyUsagePerSecond" : 30
 }

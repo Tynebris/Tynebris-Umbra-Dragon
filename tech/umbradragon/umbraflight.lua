@@ -1,99 +1,102 @@
+-- Init function, sets variables.
 function init()
-  self.lastJump = false
-  self.lastBoost = nil
-end
-
-function uninit()
-  tech.setParentState()
   self.active = false
-  return 0
+  self.specialLast = false
 end
-
+  
+-- input function, sets flight to enabled/disabled and determines direction
 function input(args)
   local currentBoost = nil
-  local activated = false
-  
-  if args.moves["special"] == 3 and not self.specialLast and not mcontroller.onGround() then
+
+  if args.moves["special"] == 1 and not self.specialLast and not mcontroller.onGround() then
     if self.active then
-	  self.specialLast = args.moves["special"] == 3
+	  self.specialLast = args.moves["special"] == 1
       return "flightDeactivate"
     else
-	  self.specialLast = args.moves["special"] == 3
+	  self.specialLast = args.moves["special"] == 1
       return "flightActivate"
     end
-  end 
+  end  
 
   
-  if not mcontroller.onGround() then
-    if not mcontroller.canJump() then
-      if args.moves["right"] and args.moves["up"] then
+  self.specialLast = args.moves["special"] == 1
+  
+  if self.active then
+    if args.moves["right"] and args.moves["up"] then
         currentBoost = "boostRightUp"
-      elseif args.moves["right"] and args.moves["down"] then
+    elseif args.moves["right"] and args.moves["down"] then
         currentBoost = "boostRightDown"
-      elseif args.moves["left"] and args.moves["up"] then
+    elseif args.moves["left"] and args.moves["up"] then
         currentBoost = "boostLeftUp"
-      elseif args.moves["left"] and args.moves["down"] then
+    elseif args.moves["left"] and args.moves["down"] then
         currentBoost = "boostLeftDown"
-      elseif args.moves["right"] then
+    elseif args.moves["right"] then
         currentBoost = "boostRight"
-      elseif args.moves["down"] then
+    elseif args.moves["down"] then
         currentBoost = "boostDown"
-      elseif args.moves["left"] then
+    elseif args.moves["left"] then
         currentBoost = "boostLeft"
-      elseif args.moves["up"] then
+    elseif args.moves["up"] then
         currentBoost = "boostUp"
-      end
-    elseif currentJump and self.lastBoost then
-      currentBoost = "hover"
-    end
+	end
   end
-
-  self.lastJump = currentJump
-  self.lastBoost = currentBoost
+  
 
   return currentBoost
 end
-
+  
+-- update function, handles movement
 function update(args)
   local boostControlForce = tech.parameter("boostControlForce")
   local boostSpeed = tech.parameter("boostSpeed")
   local energyUsagePerSecond = tech.parameter("energyUsagePerSecond")
-
-  local diag = 1 / math.sqrt(2)
-  local boostDirection = false
+  local energyUsage = 0
 
   local moving = true
-  if args.actions["boostRightUp"] then
-    boostDirection = {boostSpeed * diag, boostSpeed * diag}
-  elseif args.actions["boostRightDown"] then
-    boostDirection = {boostSpeed * diag, -boostSpeed * diag}
-  elseif args.actions["boostLeftUp"] then
-    boostDirection = {-boostSpeed * diag, boostSpeed * diag}
-  elseif args.actions["boostLeftDown"] then
-    boostDirection = {-boostSpeed * diag, -boostSpeed * diag}
-  elseif args.actions["boostRight"] then
-    boostDirection = {boostSpeed, 0}
-  elseif args.actions["boostDown"] then
-    boostDirection = {0, -boostSpeed}
-  elseif args.actions["boostLeft"] then
-    boostDirection = {-boostSpeed, 0}
-  elseif args.actions["boostUp"] then
-    boostDirection = {0, boostSpeed}
-  elseif args.actions["hover"] then
-	boostDirection = {0, 0}
+  local diag = 1 / math.sqrt(2)
+
+  if not self.active and args.actions["flightActivate"] then
+        self.active = true
+  elseif self.active and args.actions["flightDeactivate"] then
+		self.active = false
+  end
+  if not mcontroller.onGround() then
+    if args.actions["boostRightUp"] then
+      boostDirection = {boostSpeed * diag, boostSpeed * diag}
+    elseif args.actions["boostRightDown"] then
+      boostDirection = {boostSpeed * diag, -boostSpeed * diag}
+    elseif args.actions["boostLeftUp"] then
+      boostDirection = {-boostSpeed * diag, boostSpeed * diag}
+    elseif args.actions["boostLeftDown"] then
+      boostDirection = {-boostSpeed * diag, -boostSpeed * diag}
+    elseif args.actions["boostRight"] then
+      boostDirection = {boostSpeed, 0}
+    elseif args.actions["boostDown"] then
+      boostDirection = {0, -boostSpeed}
+    elseif args.actions["boostLeft"] then
+      boostDirection = {-boostSpeed, 0}
+    elseif args.actions["boostUp"] then
+      boostDirection = {0, boostSpeed}
+    else
+      moving = false
+	  boostDirection = {0, 0}
+    end
+  else
+    self.active = false
 	moving = false
   end
   
-  if activated then
-	if moving and tech.consumeTechEnergy(energyUsagePerSecond * args.dt) then
-		mcontroller.controlApproachVelocity(boostDirection, boostControlForce, true, true)
-	elseif tech.consumeTechEnergy((energyUsagePerSecond * args.dt)/2) then
-		mcontroller.controlApproachVelocity(boostDirection, boostControlForce, true, true)
+  if self.active then
+    if moving then
+	  energyUsage = energyUsagePerSecond * args.dt
+	else
+	  energyUsage = (energyUsagePerSecond / 2) * args.dt
 	end
-    tech.setAnimationState("flying", "on")
-    tech.setParticleEmitterActive("boostParticles", true)
-  else
-    tech.setAnimationState("flying", "off")
-    tech.setParticleEmitterActive("boostParticles", false)
+	if tech.consumeTechEnergy(energyUsage) then
+	  mcontroller.controlApproachVelocity(boostDirection, boostControlForce, true, true)
+	else
+	  self.active = false
+	  moving = false
+	end
   end
 end
