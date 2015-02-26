@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 30 },
-    { "item" : "uraniumrod", "count" : 5 },
-    { "item" : "money", "count" : 500 }
+    { "item" : "supermatter", "count" : 4 },
+	{ "item" : "liquidfuel", "count" : 120 }
   ],
   "output" : {
     "item" : "liquidfuelmutatorenhancer",

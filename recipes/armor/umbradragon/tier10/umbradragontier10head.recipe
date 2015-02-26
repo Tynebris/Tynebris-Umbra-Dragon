@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "ceruliumcompound", "count" : 6 }
+    { "item" : "ceruliumcompound", "count" : 6 },
+	{ "item" : "copperwires", "count" : 3 }
   ],
   "output" : { "item" : "umbradragontier10head", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 10 }
+    { "item" : "imperviumcompound", "count" : 10 },
+	{ "item" : "copperwires", "count" : 5 }
   ],
   "output" : { "item" : "umbradragontier8chest", "count" : 1 },
   "groups" : [ "separatortable", "armors", "all" ]

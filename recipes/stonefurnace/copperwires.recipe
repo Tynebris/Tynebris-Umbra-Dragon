@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "copperwires",
+    "count" : 2
+  },
+  "groups" : [ "stonefurnace", "objects", "all", "tools" ]
+}

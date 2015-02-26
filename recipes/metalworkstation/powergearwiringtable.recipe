@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "roboticcraftingtable", "count" : 1 },
-    { "item" : "steelbar", "count" : 30 },
-    { "item" : "money", "count" : 600 }
+    { "item" : "supermatter", "count" : 1 },
+    { "item" : "steelbar", "count" : 15 },
+	{ "item" : "liquidfuel", "count" : 40 }
   ],
   "output" : {
     "item" : "powergearwiringtable",

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 25 },
-    { "item" : "coalore", "count" : 30 },
-    { "item" : "money", "count" : 500 }
+    { "item" : "steelbar", "count" : 20 },
+    { "item" : "supermatter", "count" : 4 },,
+	{ "item" : "liquidfuel", "count" : 120 }
   ],
   "output" : {
     "item" : "fueltransmutator",
