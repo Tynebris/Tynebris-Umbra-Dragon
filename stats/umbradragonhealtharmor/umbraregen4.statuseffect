@@ -1,0 +1,14 @@
+{
+  "name" : "umbraregen4",
+  "effectConfig" : {
+    "healTime" : 90
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "umbraregen.lua"
+  ],
+
+  "animationConfig" : "umbraregen.animation"
+
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "coaldust",
+    "count" : 2
+  },
+  "groups" : [ "tinkerertable", "all" ]
+}

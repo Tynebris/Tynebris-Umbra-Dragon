@@ -1,0 +1,60 @@
+{
+  "objectName" : "umbrascifianvil",
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/scifianvil.config",
+    "filter" : [ "scifianvil", "umbrascifianvil" ]
+  },
+  "printable" : false,
+  "description" : "This module can turn strong ores and alloys into high quality equipment. It has been modified by an umbra dragon.",
+  "shortdescription" : "^orange;Umbra Replicator^white;",
+  "race" : "umbradragon",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [89, 119, 179],
+
+  "flickerPeriod" : 0.9,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "A modified replicator. I can create high quality equipment with this.",
+  "avianDescription" : "A modified replicator. I can create high quality equipment with this.",
+  "floranDescription" : "Floran make ssstrong weapon here.",
+  "glitchDescription" : "Statement. I can make durasteel equipment and more with this.",
+  "humanDescription" : "A modified replicator. I can create high quality equipment with this.",
+  "hylotlDescription" : "A modified replicator. I can create high quality equipment with this.",
+
+  "inventoryIcon" : "umbrascifianvilicon.png",
+  "orientations" : [
+    
+    {
+      "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>"} ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.9,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.9,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

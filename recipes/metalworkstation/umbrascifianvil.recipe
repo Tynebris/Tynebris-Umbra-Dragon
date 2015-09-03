@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "scifianvil", "count" : 1 },
+	{ "item" : "supermatter", "count" : 2},
+	{ "item" : "liquidfuel", "count" : 60 },
+	{ "item" : "durasteelbar", "count" : 4 },
+  ],
+  "output" : {
+    "item" : "umbrascifianvil",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "objects" ]
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "coaldust",
+  "rarity" : "common",
+  "inventoryIcon" : "coaldust.png",
+  "description" : "This is coal dust, required for later tier armor.",
+  "shortdescription" : "Coal Dust"
+}

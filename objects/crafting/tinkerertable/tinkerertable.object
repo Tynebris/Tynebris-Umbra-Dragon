@@ -3,11 +3,11 @@
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/tinkerertable.config",
+    "config" : "/interface/windowconfig/ironcraftingtable.config",
     "filter" : [ "tinkerertable" ]
   },
   "printable" : false,
-  "description" : "The upgrade table for the umbra gear. Requires an Erchius Crystal, can be bought by Infinity Express or crafted at a Power Gear Wiring Table.",
+  "description" : "One could build some very sophisticated equipment on this table.",
   "shortdescription" : "^orange;Tinkerer's Table^white;",
   "race" : "generic",
   "category" : "crafting",
@@ -19,7 +19,6 @@
   "glitchDescription" : "Inspired. Crafting module activated.",
   "humanDescription" : "I can use materials I've found here to create new things.",
   "hylotlDescription" : "A chance to create.",
-  "umbradragonDescription" : "Let's upgrade our gear now.",
 
   "inventoryIcon" : "tinkerertableicon.png",
   "orientations" : [

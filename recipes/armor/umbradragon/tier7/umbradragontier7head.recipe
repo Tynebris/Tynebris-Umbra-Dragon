@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedviolium", "count" : 6 },
-	{ "item" : "copperwires", "count" : 3 }
+    { "item" : "refinedviolium", "count" : 6 }
   ],
   "output" : { "item" : "umbradragontier7head", "count" : 1 },
   "groups" : [ "separatortable", "armors", "all" ]

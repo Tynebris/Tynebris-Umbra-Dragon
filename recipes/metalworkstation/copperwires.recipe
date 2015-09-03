@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 2 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "copperwires",
+    "count" : 6
+  },
+  "groups" : [ "metalworkstation", "objects", "all", "tools" ]
+}

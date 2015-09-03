@@ -7,7 +7,7 @@
     "filter" : [ "powergearwiringtable" ]
   },
   "printable" : false,
-  "description" : "For crafting the required items for upgrading our gear! Requires an Erchius Crystal, can be bought by Infinity Express or crafted at a Power Gear Wiring Table.",
+  "description" : "For crafting and upgrading your power gear needs!",
   "shortdescription" : "Power Gear Wiring Table",
   "race" : "umbradragon",
   "category" : "crafting",
@@ -19,7 +19,7 @@
   "glitchDescription" : "Confused. This table is familiar.",
   "humanDescription" : "A robot wiring table! The wiring revolution begins!",
   "hylotlDescription" : "How strange. A robotic crafting and wiring table.",
-  "umbradragonDescription" : "Now I can produce the required items for upgrading!",
+  "umbradragonDescription" : "Now our gear production can begin!",
 
   "inventoryIcon" : "powergearwiringtableicon.png",
   "orientations" : [

@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedrubium", "count" : 4 },
-	{ "item" : "copperwires", "count" : 2 }
+    { "item" : "refinedrubium", "count" : 4 }
   ],
   "output" : { "item" : "umbradragontier6pants", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

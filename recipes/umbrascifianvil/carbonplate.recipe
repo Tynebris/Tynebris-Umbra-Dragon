@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coaldust", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "carbonplate",
+    "count" : 1
+  },
+  "groups" : [ "scifianvil", "all" ]
+}

@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 6 },
-	{ "item" : "copperwires", "count" : 3 }
+    { "item" : "refinedaegisalt", "count" : 6 }
   ],
   "output" : { "item" : "umbradragontier5head", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]

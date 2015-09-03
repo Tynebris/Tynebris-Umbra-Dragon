@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 4 },
-	{ "item" : "copperwires", "count" : 2 }
+    { "item" : "refinedaegisalt", "count" : 4 }
   ],
   "output" : { "item" : "umbradragontier5pants", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]

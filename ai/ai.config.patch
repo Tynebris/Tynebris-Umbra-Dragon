@@ -3,6 +3,7 @@
 	,"path" : "/species/umbradragon"
 	,"value" : {
       "aiFrames" : "avianAi.png",
+	  "portraitFrames" : "portraits/avianportrait.png",
       "staticFrames" : "staticAvian.png",
       "openSpeech" : {
         "0" : [ {
