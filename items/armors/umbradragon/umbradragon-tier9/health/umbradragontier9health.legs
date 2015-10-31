@@ -1,11 +1,11 @@
 {
-  "itemName" : "umbradragontier8pants",
+  "itemName" : "umbradragontier9pantshealth",
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Ever wanted to kick your enemies out of your way? Now is the time!",
-  "shortdescription" : "Dragon Greaves",
+  "description" : "A set of leg armour with the intention to make the wearer feel like a walking tank.",
+  "shortdescription" : "Annihilating Talons",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -14,24 +14,24 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 70
+      "amount" : 60
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 20
+      "amount" : 65
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 35
     },
-	"umbraregen8"
+	"umbraregen9"
   ],
 
   "colorOptions" : [
-    /* BLACK */
-    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
+    /* TEAL */
+    { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

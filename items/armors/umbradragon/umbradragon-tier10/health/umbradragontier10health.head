@@ -1,5 +1,5 @@
 {
-  "itemName" : "umbradragontier10head",
+  "itemName" : "umbradragontier10headhealth",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,

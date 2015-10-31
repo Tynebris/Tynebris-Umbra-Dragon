@@ -2,7 +2,7 @@
   "itemName" : "umbraflight",
   "rarity" : "Legendary",
   "inventoryIcon" : "/tech/umbradragon/umbraflight.png",
-  "description" : "Grants you the ability to fly. Press F to hover in space and use the direction keys to move.",
+  "description" : "Grants you the ability to fly. Press H to hover in space and use the direction keys to move.",
   "shortdescription" : "Dragons have wings",
 
   "techModule" : "umbraflight"

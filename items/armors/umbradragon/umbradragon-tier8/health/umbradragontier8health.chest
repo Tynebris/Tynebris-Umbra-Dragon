@@ -1,38 +1,46 @@
 {
-  "itemName" : "umbradragontier7head",
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "umbradragontier8chesthealth",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "An assassin's choice of facial disguise.",
-  "shortdescription" : "Dragon Hitman's Mask",
+  "rarity" : "Legendary",
+  "description" : "The latest iteration of military power armor, without a the newest shield technology.",
+  "shortdescription" : "Dragon Scales PA",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 85
+      "amount" : 175
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 55
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 100
     },
-	"umbraregen7"
+	"umbraregen8"
   ],
 
   "colorOptions" : [
-    /* PURPLE */
-    { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },
+    /* BLACK */
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

@@ -8,18 +8,18 @@ end
 function input(args)
   local currentBoost = nil
 
-  if args.moves["special"] == 1 and not self.specialLast and not mcontroller.onGround() then
+  if args.moves["special"] == 3 and not self.specialLast and not mcontroller.onGround() then
     if self.active then
-	  self.specialLast = args.moves["special"] == 1
+	  self.specialLast = args.moves["special"] == 3
       return "flightDeactivate"
     else
-	  self.specialLast = args.moves["special"] == 1
+	  self.specialLast = args.moves["special"] == 3
       return "flightActivate"
     end
   end  
 
   
-  self.specialLast = args.moves["special"] == 1
+  self.specialLast = args.moves["special"] == 3
   
   if self.active then
     if args.moves["right"] and args.moves["up"] then

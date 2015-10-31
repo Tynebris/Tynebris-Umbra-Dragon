@@ -1,39 +1,31 @@
 {
-  "itemName" : "umbradragontier9chest",
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "umbradragontier9headhealth",
+  "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "This impenetrable armour is mostly solid, very flexible, but makes the wearer be an unstoppable tank.",
-  "shortdescription" : "Annihilating Scales",
+  "description" : "A helmet equipped with the Annihilator-HUD V2 System.",
+  "shortdescription" : "Annihilating Fangs",
   "tooltipKind" : "armor",
 
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 150
+      "amount" : 90
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 160
+      "amount" : 95
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 90
+      "amount" : 50
     },
 	"umbraregen9"
   ],

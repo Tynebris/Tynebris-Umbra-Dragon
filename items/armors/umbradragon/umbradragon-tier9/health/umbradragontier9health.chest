@@ -1,30 +1,39 @@
 {
-  "itemName" : "umbradragontier9pants",
-  "inventoryIcon" : "icons.png:pants",
+  "itemName" : "umbradragontier9chesthealth",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A set of leg armour with the intention to make the wearer feel like a walking tank.",
-  "shortdescription" : "Annihilating Talons",
+  "description" : "This impenetrable armour is mostly solid, very flexible, but makes the wearer be an unstoppable tank.",
+  "shortdescription" : "Annihilating Scales",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 60
+      "amount" : 150
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 65
+      "amount" : 160
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 35
+      "amount" : 90
     },
 	"umbraregen9"
   ],
